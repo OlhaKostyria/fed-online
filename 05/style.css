@@ -1,0 +1,18 @@
+h3{
+    color: rgb(186, 176, 176);
+    background-color: black;
+}
+p{
+    background-color: aqua;
+}
+    span{
+        color: blue;
+        background-color: darkgreen;
+    }
+    p span{
+        background-color: rgb(147, 145, 181);
+        color: black;
+    }
+    p{
+        color:rgb(80, 7, 41);
+    }
