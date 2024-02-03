@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f6f5f5;
+}
+.container{
+    width: 360px;
+    margin: 100px auto;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 56px 20px 91px 20px;
+}
+button{
+    border: none;
+    background-color: #FFF
+}
+input{
+    width: 316px;
+    height: 44px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 12px;
+    background: #efefef
+}
+.menu-items{
+    padding: 20px 4px;
+}
+.menu-position{
+    display: inline-block
+}
+.image-position{
+    background-color:#EFEFEF;
+    width: 74px;
+    height: 74px;
+    border-radius: 12px;
+    padding: 18px 19px 46px 18px;
+}
+.image-position:hover .image-position:hover{
+    background-color: black;
+}
