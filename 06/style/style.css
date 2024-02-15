@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-
 }
 body{
     background-color: #f6f5f5;
@@ -10,32 +9,70 @@ body{
     margin: 100px auto;
     border-radius: 20px;
     background-color: #FFF;
-    padding: 56px 20px 91px 20px;
-}
-    button{
+     padding: 56px 20px 91px 20px;}
+     button{
         border: none;
         background-color: #FFF;
+        
     }
-    .menu-itens{
-        padding: 0 4px;
+    input{
+        width: 316px;
+        height: 44px;
+        border: none;
+        border-radius: 12px;
+        background: #efefef;
+        padding: 20px;
+    }
+    .menu-items{
+        padding: 20px 4px;
+    }
+    .menu-position{
         display: inline-block;
-
-
+        margin: 10px;
+        text-align: center;
     }
-    .position-image{
+    .image-position{
+        background-color:#EFEFEF;
         width: 74px;
         height: 74px;
         border-radius: 12px;
-        background-color: #EFEFEF;
-        padding: 18px 19px 46px 18px;      
+        padding: 18px 19px 46px 18px;
     }
-    .menu-position h4{
-        color: #C4C4C4;
+    .menu-position:hover .image-position {
+        background-color: #EAE2B7;
     }
-    .menu-position{
-        border: 1px;
+    .menu-position-text:hover{ 
+        color: gray;
     }
-    .menu-position:hover .menu-position h4{
-        color: black;
+    .menu-eat{
+    width: 316px;
+    height: 88px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px #E5E5E5;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    }
+    .image-eat{
+        width: 60px;
+        height: 68.514px; 
+        margin: 6px 240px 13,5px 16px;
+    
+    }
+    .image-eat-text{
+    color: #003049;
+    Width: 91.15px;
+    Height: 19px;
+    Top:   543px;
+    Left: 113.13px;
+    }
+    .image-eat-text-info {
+        color: #D62828;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 17px;
+     letter-spacing: 0em;
+     text-align: left;
 
     }
