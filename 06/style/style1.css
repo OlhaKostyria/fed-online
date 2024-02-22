@@ -1,8 +1,14 @@
+
 *{
     box-sizing: border-box;
 }
 body{
     background-color: #f6f5f5;
+    
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style:normal
 }
 .container{
     width: 360px;
@@ -75,7 +81,6 @@ body{
             /* padding: 60px 100px; */
             margin: -75px 100px;
             color: #003049;
-            font-family: Inter;
             font-size: 16px;
             font-style: normal;
             font-weight: 300;
@@ -89,6 +94,7 @@ body{
             line-height: 19px;
             letter-spacing: 0em;
             text-align: left;
+            margin: 10px auto;
             }
 .image-eat-text-info {
           color:red}
