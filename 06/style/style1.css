@@ -76,10 +76,10 @@ body{
 
         }
 .description-text{
-            display: block;
+            display: inline-block;
             text-align: left;
             /* padding: 60px 100px; */
-            margin: -75px 100px;
+            /* margin: -75px 100px; */
             color: #003049;
             font-size: 16px;
             font-style: normal;
@@ -94,10 +94,12 @@ body{
             line-height: 19px;
             letter-spacing: 0em;
             text-align: left;
-            margin: 10px auto;
+            margin: 20px 20px;
             }
 .image-eat-text-info {
-          color:red}
+          color:red;
+          margin: 20px 20px;
+        }
  .image-eat-last{
             padding: 10px 5px;
           }
